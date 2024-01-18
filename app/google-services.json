@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "260308836181",
+    "project_id": "fir-sisapp",
+    "storage_bucket": "fir-sisapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260308836181:android:bef527b4ca5499ea3f99dc",
+        "android_client_info": {
+          "package_name": "com.example.appmovile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDePLNxyVFMwnVlAdS7u-92iV_O3-I17-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

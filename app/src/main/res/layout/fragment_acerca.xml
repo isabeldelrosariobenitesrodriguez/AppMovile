@@ -19,12 +19,6 @@
             android:layout_width="match_parent"
             android:layout_height="61dp"
             android:background="#FF6D00"
-            android:orientation="horizontal"></LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="92dp"
-            android:background="#304FFE"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -39,13 +33,13 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="395dp"
+            android:layout_width="match_parent"
             android:layout_height="652dp"
             android:orientation="vertical">
 
             <com.google.android.material.appbar.AppBarLayout
                 android:layout_width="match_parent"
-                android:layout_height="52dp"
+                android:layout_height="23dp"
                 android:gravity="center" />
 
             <LinearLayout
@@ -211,8 +205,8 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_height="319dp"
                 android:src="@drawable/personal" />
 
 

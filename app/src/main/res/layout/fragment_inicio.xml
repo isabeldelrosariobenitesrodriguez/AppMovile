@@ -2,8 +2,10 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".inicio">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -13,6 +15,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#FFFFFF"
             android:orientation="vertical">
 
             <LinearLayout
@@ -67,10 +70,10 @@
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.241"
+                        app:layout_constraintHorizontal_bias="0.581"
                         app:layout_constraintStart_toEndOf="@+id/imageView10"
                         app:layout_constraintTop_toTopOf="@+id/imageView9"
-                        app:layout_constraintVertical_bias="0.394" />
+                        app:layout_constraintVertical_bias="0.358" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </LinearLayout>
@@ -90,6 +93,7 @@
                         android:orientation="horizontal">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/boton"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_margin="15dp"
@@ -135,6 +139,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/botonTriaje"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_margin="15dp"
@@ -142,7 +147,7 @@
                             android:background="@drawable/btn_bacground">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
-                                android:id="@+id/constraintLayout"
+                                android:id="@+id/constraintLayout2"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_marginTop="16dp"
@@ -152,7 +157,7 @@
                                 app:layout_constraintTop_toTopOf="parent">
 
                                 <ImageView
-                                    android:id="@+id/imageView5"
+                                    android:id="@+id/imageView556"
                                     android:layout_width="56dp"
                                     android:layout_height="62dp"
                                     android:src="@drawable/ic_ter"
@@ -163,7 +168,7 @@
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
                             <TextView
-                                android:id="@+id/textView3"
+                                android:id="@+id/textView35"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
@@ -173,9 +178,9 @@
                                 android:textSize="25dp"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
-                                app:layout_constraintStart_toStartOf="@+id/constraintLayout"
-                                app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+                                app:layout_constraintEnd_toEndOf="@+id/constraintLayout2"
+                                app:layout_constraintStart_toStartOf="@+id/constraintLayout2"
+                                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </LinearLayout>
@@ -186,6 +191,7 @@
                         android:orientation="horizontal">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/botonAtencion"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_margin="15dp"
@@ -193,7 +199,7 @@
                             android:background="@drawable/btn_bacground">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
-                                android:id="@+id/constraintLayout"
+                                android:id="@+id/constraintLayout3"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_marginTop="16dp"
@@ -203,7 +209,7 @@
                                 app:layout_constraintTop_toTopOf="parent">
 
                                 <ImageView
-                                    android:id="@+id/imageView5"
+                                    android:id="@+id/imageView54"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:src="@drawable/ic_doc"
@@ -214,7 +220,7 @@
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
                             <TextView
-                                android:id="@+id/textView3"
+                                android:id="@+id/textView33"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
@@ -224,13 +230,14 @@
                                 android:textSize="25dp"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
-                                app:layout_constraintStart_toStartOf="@+id/constraintLayout"
-                                app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+                                app:layout_constraintEnd_toEndOf="@+id/constraintLayout3"
+                                app:layout_constraintStart_toStartOf="@+id/constraintLayout3"
+                                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/botonAcerca"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_margin="15dp"
@@ -238,7 +245,7 @@
                             android:background="@drawable/btn_bacground">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
-                                android:id="@+id/constraintLayout"
+                                android:id="@+id/constraintLayout4"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_marginTop="16dp"
@@ -248,7 +255,7 @@
                                 app:layout_constraintTop_toTopOf="parent">
 
                                 <ImageView
-                                    android:id="@+id/imageView5"
+                                    android:id="@+id/imageView55"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:src="@drawable/icon_pos"
@@ -269,9 +276,9 @@
                                 android:textSize="25dp"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
-                                app:layout_constraintStart_toStartOf="@+id/constraintLayout"
-                                app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+                                app:layout_constraintEnd_toEndOf="@+id/constraintLayout4"
+                                app:layout_constraintStart_toStartOf="@+id/constraintLayout4"
+                                app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </LinearLayout>

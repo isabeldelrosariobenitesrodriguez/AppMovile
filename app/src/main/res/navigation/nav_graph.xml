@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.appmovile.presentation.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_inicio"
+            app:destination="@id/inicio" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.appmovile.inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_historia"
+            app:destination="@id/historia" />
+        <action
+            android:id="@+id/action_inicio_to_triaje"
+            app:destination="@id/triaje" />
+        <action
+            android:id="@+id/action_inicio_to_acerca"
+            app:destination="@id/acerca" />
+        <action
+            android:id="@+id/action_inicio_to_atencion"
+            app:destination="@id/atencion" />
+    </fragment>
+    <fragment
+        android:id="@+id/historia"
+        android:name="com.example.appmovile.historia"
+        android:label="fragment_historia"
+        tools:layout="@layout/fragment_historia" />
+    <fragment
+        android:id="@+id/triaje"
+        android:name="com.example.appmovile.triaje"
+        android:label="fragment_triaje"
+        tools:layout="@layout/fragment_triaje" />
+    <fragment
+        android:id="@+id/acerca"
+        android:name="com.example.appmovile.acerca"
+        android:label="fragment_acerca"
+        tools:layout="@layout/fragment_acerca" />
+    <fragment
+        android:id="@+id/atencion"
+        android:name="com.example.appmovile.atencion"
+        android:label="fragment_atencion"
+        tools:layout="@layout/fragment_atencion" />
+</navigation>
